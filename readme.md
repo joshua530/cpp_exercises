@@ -1,2 +1,1 @@
 ## Sample c++ projects
-
