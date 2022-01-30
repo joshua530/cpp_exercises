@@ -1,0 +1,13 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterFunction: true
+
+# AllowShortIfStatementsOnASingleLine: Never
+#AllowShortLoopsOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+IndentCaseLabels: true
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: Yes
