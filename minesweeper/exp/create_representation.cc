@@ -169,23 +169,3 @@ void testGetNeighbours()
     }
     cout << "\n";
 }
-
-int main(int argc, char **argv)
-{
-    int numRowsAndCols[][2] = {{4, 4}, {3, 5}, {0, 0}};
-    vector<string> a{"*...", "....", ".*..", "...."};
-    vector<string> b{"**...", ".....", ".*..."};
-    vector<string> items[] = {a, b};
-
-    for (int i = 0; i < 3; ++i) {
-        if (numRowsAndCols[i][0] != 0 || numRowsAndCols[i][1] != 0) {
-            cout << "Field #" << (i + 1) << "\n";
-            vector<string> current = processInput(numRowsAndCols[i], items[i]);
-            for (vector<string>::const_iterator i = current.begin();
-                 i != current.end(); ++i) {
-                cout << *i << "\n";
-            }
-            cout << "\n";
-        }
-    }
-}
