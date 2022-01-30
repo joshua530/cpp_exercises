@@ -99,8 +99,3 @@ void testCycleLen()
     }
     cout << "\n";
 }
-
-// int main()
-// {
-//     testCycleLen();
-// }

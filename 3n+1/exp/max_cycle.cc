@@ -58,8 +58,3 @@ void testMaxCycle()
     }
     cout << "\n";
 }
-
-int main()
-{
-    testMaxCycle();
-}
