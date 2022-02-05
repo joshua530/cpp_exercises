@@ -1,0 +1,4 @@
+= read the chess board config into an array
+store config for all pieces: the squares that are accessible by each piece
+check whether the black or white king is in check
+count the chess board config currently being handled
